@@ -87,7 +87,7 @@ export const useAdminAnalyticsConfig = () => {
     () => getAnalyticsConfig(),
     {
       retry: false,
-      enabled: false, // comment this out to disable analytics isFeatureEnabled("analytics"),
+      enabled: isFeatureEnabled("analytics"),
     }
   )
 
