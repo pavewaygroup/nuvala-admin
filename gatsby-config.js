@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Admin`,
+    title: `Nuvala Admin`,
     description: `The best ecommerce software.`,
-    author: `@medusajs`,
+    author: `@pavewaytech`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
